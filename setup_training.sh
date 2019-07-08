@@ -1,0 +1,2 @@
+python generate_data_in_pronoun_format.py
+python prepare_lm_embedding.py
