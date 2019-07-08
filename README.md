@@ -1,4 +1,4 @@
-# Knowledge-aware Pronoun coreference resolution
+# Knowledge-aware Pronoun Coreference Resolution
 
 This is the source code for ACL 2019 paper "Knowledge-aware Pronoun Coreference Resolution".
 
@@ -15,7 +15,7 @@ The readers are welcome to star/fork this repository and use it to train your ow
 }
 ```
 
-#Usage
+# Usage
 
 Before repeating our experiment or train your own model, please setup the environment as follows:
 
