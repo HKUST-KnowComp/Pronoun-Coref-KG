@@ -15,8 +15,6 @@ The readers are welcome to star/fork this repository and use it to train your ow
 }
 ```
 
-
-
 #Usage
 
 Before repeating our experiment or train your own model, please setup the environment as follows:
