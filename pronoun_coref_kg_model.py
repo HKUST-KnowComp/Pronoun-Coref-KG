@@ -300,6 +300,9 @@ class PronounCorefKGModel(object):
                     # print(tmp_candidate)
                     if -2 < word_index_to_sentence_index[tmp_candidate[0]] - tmp_sentence <= 0:
                         tmp_candidates.append(tmp_candidate)
+                random.shuffle(tmp_candidates)
+                tmp_candidates = tmp_candidates[:200]
+                candidate_NPs.append(tmp_candidates)
 
             max_candidate_NP_length = max(len(candidates) for candidates in candidate_NPs)
             candidate_NP_positions = np.zeros([len(example['pronoun_info']), max_candidate_NP_length])
